@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Righteous&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+            <span>Закрыть</span>
+        </div>
+        <header class="header" id="home">
+            <div class="header-menu">
+                <div class="header-menu-list">
+                    <a href="#home" class="header-menu-link">Главная</a>
+                    <a href="#about-me" class="header-menu-link">Обо мне</a>
+                    <a href="#edu" class="header-menu-link">Образование</a>
+                    <a href="#projects" class="header-menu-link">Мои проекты</a>
+                    <a href="#contacts" class="header-menu-link">Контакты</a>
+                </div>
+            </div>
+
+            <div class="img-wrapper">
+                <img src="./images/bg.jpeg" alt="bg">
+            </div>
+            <div class="banner">
+                <img src="./images/my-photo-2.jpg" alt="oleja" />
+                <h1>Олег Гончаров</h1>
+                <p>Frontend-разработчик</p>
+
+            </div>
+        </header>
+        <section class="sidebar">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#home" class="menu-link" data-content="Главная">Главная</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#about-me" class="menu-link" data-content="Обо мне">Обо мне</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#edu" class="menu-link" data-content="Образование">Образование</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#projects" class="menu-link" data-content="Мои проекты">Мои проекты</a>
+                </li>
+
+                <li class="menu-item">
+                    <a href="#contacts" class="menu-link" data-content="Контакты">Контакты</a>
+                </li>
+            </ul>
+            <div class="social-media">
+                <a href="https://github.com/AlecGebert"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/AlecGebert"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://wa.me/79175395848"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </section>
+
+
+        <main class="galery-one">
+            <div id="about-me" class="galery-item">
+                <img src="./images/coder.jpg" alt="coder">
+            </div>
+            <div class="galery-item">
+                <div class="galery-item-content">
+                    <div class="galery-item-header">
+                        <h3>Обо мне</h3>
+                    </div>
+                    <div class="progress-bars-wrapper">
+                        <div class="progress-bar">
+                            <p class="progress-text">
+                                HTML
+                                <span></span>%
+                            </p>
+                            <div class="progress-percent"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-text">
+                                CSS
+                                <span></span>%
+                            </p>
+                            <div class="progress-percent"></div>
+                        </div>
+                        <div class="progress-bar">
+                            <p class="progress-text">
+                                JavaScript
+                                <span></span>%
+                            </p>
+                            <div class="progress-percent"></div>
+                        </div>
+
+                        <div class="progress-bar">
+                            <p class="progress-text">
+                                ReactJS
+                                <span></span>%
+                            </p>
+                            <div class="progress-percent"></div>
+                        </div>
+                        <!-- <div class="progress-bar">
+                            <p class="progress-text">
+                                NodeJS
+                                <span></span>%
+                            </p>
+                            <div class="progress-percent"></div>
+                        </div> -->
+                        <div class="progress-bar">
+                            <p class="progress-text">
+                                Git
+                                <span></span>%
+                            </p>
+                            <div class="progress-percent"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="galery-item">
+                <div class="galery-item-content">
+                    <div class="galery-item-header">
+                        <h3>Образование</h3>
+                    </div>
+                    <p class="galery-item-text">
+                        <b>Skillfactory</b> - 2023г. Специализация -
+                        <b>Frontend-разработчик</b><br>
+                        <b>freeCodeCamp.org</b> - 2021 JavaScript Algorithms and Data Structures<br>
+                        <b>freeCodeCamp.org</b> - 2020 Responsive Web Design Developer Certification
+                    </p>
+                </div>
+            </div>
+
+            <div id="edu" class="galery-item">
+                <img src="./images/teknoloji-sirketlerinin-hisse-degeri.jpg" alt="edu">
+            </div>
+            <div id="experience" class="galery-item">
+                <img src="./images/468.jpg" alt="exp">
+            </div>
+            <div id="projects" class="galery-item">
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">
+                            Repair Designe Website
+                        </h2>
+                        <h4 class="project-technologies">
+                            HTML / CSS / JS
+                        </h4>
+                    </div>
+                    <img src="images/project-11.png" class="project-img" alt="">
+                    <a href="https://alecgebert.github.io/Repair-Design-Project/" class="project-link"
+                        target="_blank">Go to Project</a>
+                </div>
+            </div>
+
+            <div id="hobby" class="galery-item">
+                <img src="./images/1618354024_2-phonoteka_org-p-poligrafiya-fon-2.jpg" alt="hobby">
+            </div>
+            <div class="galery-item">
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">
+                            architect website
+                        </h2>
+                        <h4 class="project-technologies">
+                            HTML / CSS / JS
+                        </h4>
+                    </div>
+                    <img src="images/project-1.jpg" class="project-img" alt="">
+                    <a href="https://alecgebert.github.io/Architect/
+                    " class="project-link" target="_blank">Go to Project</a>
+                </div>
+            </div>
+            <div class="galery-item">
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">
+                            The Road
+                        </h2>
+                        <h4 class="project-technologies">
+                            HTML / CSS / JS
+                        </h4>
+                    </div>
+                    <img src="images/project-5.jpg" class="project-img" alt="">
+                    <a href="https://alecgebert.github.io/Road/" class="project-link" target="_blank">Go to Project</a>
+                </div>
+            </div>
+            <div id="dev" class="galery-item">
+                <img src="./images/18697-min.jpg" alt="developer">
+            </div>
+            <div id="contacts" class="galery-item">
+                <img src="./images/PHOT_contact_header.jpg" alt="contact">
+            </div>
+            <div class="galery-item">
+                <div class="galery-item-content">
+                    <div class="galery-item-header">
+                        <h3>Контакты</h3>
+                    </div>
+                    <p class="galery-item-text">Телефон:<a href="#"> +7(917)539-58-48</a><br>E-mail:<a href="#">
+                            oleg_goncharov@inbox.ru</a></p>
+                    <div class="contacts-social-list">
+                        <a href="https://github.com/AlecGebert"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://t.me/AlecGebert"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://wa.me/79175395848"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">
+                    Copyright &copy; 2022, Oleg Goncharov - All Rights Reserved
+                </p>
+                <div class="social-list">
+                    <a href="https://github.com/AlecGebert"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/AlecGebert"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://wa.me/79175395848"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="scrolll-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
